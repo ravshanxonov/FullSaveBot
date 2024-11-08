@@ -5,9 +5,9 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class WebhookService {
-    private final String TELEGRAM_API_URL = "https://api.telegram.org/bot";
-    private final String BOT_TOKEN = "7577690021:AAFod7lXBd-UzgEog7dUCH0jIVEtMxtjyVE";  // Bu yerda bot tokeningizni kiriting
-    private final String WEBHOOK_URL = "https://4d4b-84-54-83-78.ngrok-free.app";  // Ngrok webhook URL
+    private final String TELEGRAM_API_URL = ";
+    private final String BOT_TOKEN = "";  // Bu yerda bot tokeningizni kiriting
+    private final String WEBHOOK_URL = "";  // Ngrok webhook URL
     private final RestTemplate restTemplate;
 
     public WebhookService(RestTemplate restTemplate) {
